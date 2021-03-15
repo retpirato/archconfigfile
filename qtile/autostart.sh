@@ -6,7 +6,3 @@ cbatticon -u 5 &
 volumeicon &
 # background
 feh --bg-scale /root/01.png
-# ip link
-ip link set wlan0 up
-# network manager
-NetworkManager

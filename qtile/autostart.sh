@@ -6,3 +6,5 @@ cbatticon -u 5 &
 volumeicon &
 # background
 feh --bg-scale /root/01.png
+# picom
+picom &

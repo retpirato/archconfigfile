@@ -1,5 +1,8 @@
-pacman -S pulseaudio pulseaudio-alsa alsa-utils xorg qtile lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pacman-contrib alacritty picom alsa-utils glib2 gvfs iwd dhcpcd feh thunar neovim redshift ranger brightnessctl xorg-xinit firefox git rofi scrot trayer cbatticon volumeicon arandr python-pip
+pacman -S vim pulseaudio pulseaudio-alsa alsa-utils xorg qtile lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pacman-contrib alacritty picom alsa-utils glib2 gvfs iwd dhcpcd feh thunar neovim redshift ranger brightnessctl xorg-xinit firefox git rofi scrot trayer cbatticon volumeicon arandr python-pip
 pip install psutil
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cp -r .vim /root/
+cp -r .vimrc /root/
 cp -r alacritty ~/.config
 cp -r qtile ~/.config
 cp -r picom.conf /etc/xdg/

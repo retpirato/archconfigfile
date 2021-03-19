@@ -1,4 +1,4 @@
-pacman -S xorg qtile lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pacman-contrib alacritty picom alsa-utils glib2 gvis networkmanager network-manager-applet iwd dhcpcd feh thunar neovim redshift ranger brightnessctl xorg-xinit firefox git rofi scrot trayer cbatticon volumeicon arandr python-pip
+pacman -S xorg qtile lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings pacman-contrib alacritty picom alsa-utils glib2 gvfs iwd dhcpcd feh thunar neovim redshift ranger brightnessctl xorg-xinit firefox git rofi scrot trayer cbatticon volumeicon arandr python-pip
 pip install psutil
 cp -r alacritty ~/.config
 cp -r qtile ~/.config
